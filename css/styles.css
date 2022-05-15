@@ -3056,7 +3056,7 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #000;
-  background-color: #bd5d38;
+  background-color: #000;
   border-color: #bd5d38;
 }
 
@@ -3947,10 +3947,12 @@ textarea.form-control-lg {
   color: #bd5d38;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    background-color:#000;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
+      background-color:#000;
   }
 }
 .nav-link:hover, .nav-link:focus {
