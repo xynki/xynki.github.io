@@ -3032,7 +3032,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #bd5d38;
+  background-color: #000;
   border-color: #bd5d38;
 }
 .btn-primary:hover {
@@ -4001,7 +4001,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #000;
 }
 
 .nav-fill > .nav-link,
