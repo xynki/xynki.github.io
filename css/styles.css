@@ -4039,6 +4039,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+    background-color:#000;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4059,6 +4060,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+    background-color:#000;
 }
 .navbar-nav {
   display: flex;
@@ -4066,10 +4068,14 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+        background-color:#000;
+
 }
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+        background-color:#000;
+
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4122,12 +4128,16 @@ textarea.form-control-lg {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+        background-color:#000;
+
 }
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
+          background-color:#000;
+
   }
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;
@@ -4181,6 +4191,8 @@ textarea.form-control-lg {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
+          background-color:#000;
+
   }
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
@@ -4234,6 +4246,8 @@ textarea.form-control-lg {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+          background-color:#000;
+
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -7812,7 +7826,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000, var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11335,11 +11349,14 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
+        background-color:#000;
+
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+    
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
